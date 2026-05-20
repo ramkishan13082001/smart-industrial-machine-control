@@ -1,41 +1,34 @@
-Industrial Fault Logger
+🏭 Industrial Fault Logger
 
-Advanced PIC18F4580 project featuring I2C Data Logging, Preventive Maintenance logic, and Technician UART CLI.
+Advanced Embedded Systems Project using PIC18F4580, I2C EEPROM, UART CLI, ADC Monitoring, and PWM-Based Preventive Maintenance
 
-🏭 Industry Standard Embedded Engineering
+📌 Project Overview
 
-In real industrial environments, embedded systems are not just reactive — they must also be persistent and fault-aware.
+The Industrial Fault Logger is an industry-style embedded system designed for:
 
-This project introduces:
+Persistent fault storage
+Machine health monitoring
+Preventive maintenance
+Real-time telemetry
+Technician diagnostics
 
-I2C Communication
-External EEPROM Memory
-UART Command Line Interface
-ADC Sensor Monitoring
-PWM Fan Control
-Interrupt-Based Emergency Shutdown
-
-The system continuously monitors machine temperature and load conditions while permanently storing critical fault information inside external EEPROM memory.
+Unlike beginner projects, this system stores critical fault information permanently using external EEPROM memory.
 
 ✨ Features
 💾 Non-Volatile Fault Logging
 
-Uses external 24C04 EEPROM through I2C communication.
+Stores important system data inside external 24C04 EEPROM.
 
-Stored parameters:
-
+Logged Parameters
 Peak Temperature
-Overload/Fault Status
+Fault Conditions
+Overload Events
 Maintenance Warnings
 
-Data remains stored even after power failure.
+Data remains safe even after power failure.
 
-🛠️ Technician UART CLI
+🛠️ UART Technician CLI
 
-A real industrial-style serial console.
+Technicians can interact with the system using serial commands.
 
-Technicians can connect using:
-
-Proteus Virtual Terminal
-USB-UART Converter
-Serial Monitor
+Supported Commands
